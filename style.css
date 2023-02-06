@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, h1, button {
+  font-family: 'Staatliches', cursive;
+}
+
+header, label {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #EFEFEF;
+}
+
+#page {
+  width: 750px;
+  margin: auto;
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  height: 436px;
+
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  
+  display: block;
+  background: #535971;
+}
+
+header h1 {
+  margin: 140px 0 18px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  color: #fff;
+}
+
+header p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  width: 417px;
+  
+  line-height: 30px;
+  
+  margin-bottom: 58px;
+}
+
+form {
+  background: #FFF;
+  padding: 64px;
+  border-radius: 20px 20px 0 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  border: none;
+}
+
+.fieldset-wrapper {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  display: flex;
+  flex-direction: column;
+}
+
+legend {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 8px;
+  margin-bottom: 22px;
+  color: #535971;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.input-wrapper span:hover {
+  color: #C1BCFF
+}
+
+.input-wrapper span {
+  font-size: 12px;
+  line-height: 24px;
+  margin-left: 10px;
+  color: #C1BCCC;
+}
+
+.col-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+}
+
+input {
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  height: 56px;
+  border-radius: 8px;
+  padding: 10px;
+}
+.input-wrapper label {
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  color: #4E4958;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.col-3 {
+  display: flex;
+  gap: 32px;
+}
+
+.col-3 > div:nth-child(1) {
+  width: 200%;
+}
+
+.input-mentor p {
+  margin-top: 32px;
+  color: #535971;
+}
+footer {
+  height: 160px;
+  margin-bottom: 32px;
+
+  background: #535971;
+  border-radius: 0 0 8px 8px;
+  display: flex;
+
+}
+footer button {
+
+  width: 608px;
+  height: 55.65px;
+
+  background: #FF5374;
+  border: 1px solid #FF5374;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  color: #FFF;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+
+}
+footer button:hover{
+  background: #FF5aaa;
+}
